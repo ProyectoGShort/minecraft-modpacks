@@ -2,13 +2,14 @@
 
 ## How to edit a modpack
 
+Note: if you are using the `itzg/docker-minecraft-server`, delete the `/data/modpack.mrpack` and then restart the server after applying any change. 
+
 ### 1. Modrinth App (official workflow)
 
 If you are not already using it, the Modrinth App lets you edit the instance directly.
 
 - **Add or remove mods:** Drag and drop `.jar` files or browse in the UI. The app updates the manifest for you.
 - **Export:** When you are done, use **Export** to generate a clean `.mrpack` in one click, without editing JSON by hand.
-- **Version:** Bump the pack version in the manifest file (for example `modrinth.index.json` inside the pack) **and** enter the same value in the **Version** field in the Modrinth App export dialog. Keep both in sync so the filename, metadata, and what you publish match.
 
 ### 2. Packwiz (recommended for serious / dev workflows)
 
