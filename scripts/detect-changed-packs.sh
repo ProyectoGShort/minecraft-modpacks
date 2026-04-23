@@ -21,7 +21,14 @@ changed_packs() {
     local first_push="0000000000000000000000000000000000000000"
 
     if [ "$BEFORE" = "$first_push" ]; then
-        # No previous commit to compare against — treat as all packs
+        # No previous commit to compare against — export all packs
+        all_packs
+        return
+    fi
+
+    if ! git cat-file -e "$BEFORE" 2>/dev/null; then
+        # BEFORE commit not found (e.g. force push) — export all packs to be safe
+        echo "Warning: commit $BEFORE not found, falling back to all packs"
         all_packs
         return
     fi
