@@ -1,0 +1,18 @@
+#
+# Cooldown the player has to wait after using the tpa command.
+# Default: 30.0
+# Range: 5.0 ~ 900.0
+tpaCooldown = 30.0
+#
+# Time waited to teleport after a request is accepted
+# Default: 5.0
+# Range: 1.0 ~ 60.0
+teleportTime = 5.0
+#
+# If teleporting back with the back command is enabled
+backEnabled = true
+#
+# Cooldown the player has to wait after using the back command.
+# Default: 30.0
+# Range: 1.0 ~ 900.0
+backCooldown = 30.0

@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "../../mods/easy-tpa.pw.toml"
+hash = "7471fac631fd0336407a2df140aab29a535e69204c607d0c84a913d494c14997"
+metafile = true
+
+[[files]]
 file = "config/aeronautics-server.toml"
 hash = "a9302b0253e494e7d80f0a2785bf4514b0b67da85796437ca032482db62be514"
 
