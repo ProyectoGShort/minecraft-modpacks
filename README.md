@@ -1,32 +1,82 @@
-# Modrinth Modpacks
+# Minecraft Modpacks
 
-## How to edit a modpack
+This repo uses [packwiz](https://packwiz.infra.link/) to keep the modpack as versioned TOML files and export a Modrinth `.mrpack`.
 
-Note: if you are using the `itzg/docker-minecraft-server`, delete the `/data/modpack.mrpack` and then restart the server after applying any change. 
+## Requirements
 
-### 1. Modrinth App (official workflow)
+- [packwiz](https://packwiz.infra.link/) installed and on your `PATH`.
 
-If you are not already using it, the Modrinth App lets you edit the instance directly.
+## Pack layout
 
-- **Add or remove mods:** Drag and drop `.jar` files or browse in the UI. The app updates the manifest for you.
-- **Export:** When you are done, use **Export** to generate a clean `.mrpack` in one click, without editing JSON by hand.
+Inside the pack directory (e.g. `minecraft-aeronautics/`):
 
-### 2. Packwiz (recommended for serious / dev workflows)
+| Path | Purpose |
+|------|---------|
+| `pack.toml` | Pack name/version, Minecraft and loader versions |
+| `index.toml` | File list with hashes (normally maintained by packwiz) |
+| `mods/*.pw.toml` | Per-mod metadata (download URL, hash, Modrinth update info) |
+| `config/` | Config files that end up under `overrides/config/` when exported |
 
-For a production-style modpack, Packwiz is the common tooling choice. Instead of one huge `.mrpack`, you work with individual `.pw.toml` files per mod.
+## Workflow
 
-**How it works:**
+From the pack root:
 
-- Keep a folder with your config files and the `.toml` entries.
-- Add mods from the terminal: `packwiz mr add <mod-url>`.
-- **Fast export:** Run `packwiz mr export` to build the `.mrpack` quickly.
-- **Version control:** You can use Git to see exactly what changed per release—much harder with a single opaque zip.
+```bash
+cd minecraft-aeronautics
+```
 
-### 3. In-place editing with 7-Zip or WinRAR
+### Add a mod (Modrinth)
 
-To tweak a config file quickly without fully unpacking the pack:
+```bash
+packwiz modrinth add <Modrinth URL | slug | search term>
+```
 
-1. Right-click the `.mrpack` → **Open with** 7-Zip (or WinRAR).
-2. Go to `overrides/config`.
-3. Drag your updated file into the archive window.
-4. Close the window. 7-Zip updates the compressed file in place, so you do not need to re-export the whole pack.
+Packwiz creates a `.pw.toml` using the version metadata from Modrinth (including client/server env when the author set it).
+
+### Client-only, server-only, or both
+
+There is no `--side` flag on `add`. Set it in `mods/<mod>.pw.toml`:
+
+```toml
+side = "client"   # client only
+side = "server"   # server only
+side = "both"     # both sides
+```
+
+Then refresh the index:
+
+```bash
+packwiz refresh
+```
+
+### Add or remove config files
+
+1. Create, edit, or delete files under `config/` (or elsewhere in the pack root as needed).
+2. Regenerate the index:
+
+```bash
+packwiz refresh
+```
+
+### List mods
+
+```bash
+packwiz list
+```
+
+### Export a Modrinth `.mrpack`
+
+```bash
+packwiz modrinth export
+```
+
+This produces a `.mrpack` with `modrinth.index.json` and `overrides/`. Each mod’s `side` becomes the `env` field in the manifest so launchers skip client-only jars on servers (and the reverse) where supported.
+
+### Update mods
+
+```bash
+packwiz update                 # everything that can update
+packwiz update <file.pw.toml>  # one mod
+```
+
+Use `packwiz help` and `packwiz <command> --help` for other sources (CurseForge, `url`, etc.).
