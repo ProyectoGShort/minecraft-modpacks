@@ -1,0 +1,13 @@
+name = "TPA"
+filename = "tpa-1.7.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pbGzLSUN/versions/K7BLhSZ1/tpa-1.7.5.jar"
+hash-format = "sha512"
+hash = "a0ed2421dd180b4e076407c513593a19bc66d62010752a4465d68fff689bd9be235f61f9f657fdd66c8b3ccb21c1bc2a9dc8e038c43d24e1b6184f5867c1eee9"
+
+[update]
+[update.modrinth]
+mod-id = "pbGzLSUN"
+version = "K7BLhSZ1"
