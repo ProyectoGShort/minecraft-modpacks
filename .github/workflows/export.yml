@@ -69,6 +69,7 @@ jobs:
       - name: Export .mrpack
         working-directory: ${{ github.workspace }}
         run: |
+          packwiz refresh --pack-file "${{ matrix.pack }}/pack.toml"
           mkdir -p builds
           packwiz modrinth export \
             --pack-file "${{ matrix.pack }}/pack.toml" \
