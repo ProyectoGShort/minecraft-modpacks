@@ -1,0 +1,13 @@
+name = "CreateDragonsPlus 1.8.8"
+filename = "CreateDragonsPlus-1.8.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dzb1a5WV/versions/hizq1Gct/CreateDragonsPlus-1.8.8.jar"
+hash-format = "sha512"
+hash = "d25e51c01b668e4e3b2188ad8b3b1a0adc2340dcdc53eea004c9c55ff4927ed73a06b9ec90dcb758b97ec8afb6945b6e3af8a5656afeeb236355bd8fb41bf212"
+
+[update]
+[update.modrinth]
+mod-id = "dzb1a5WV"
+version = "hizq1Gct"
