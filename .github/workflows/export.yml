@@ -4,10 +4,12 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "modpacks/**"
   workflow_dispatch:
     inputs:
       pack:
-        description: "Pack directory to export (leave empty to export all)"
+        description: "Pack name inside modpacks/ to export (leave empty to export all)"
         required: false
         default: ""
 
@@ -26,7 +28,7 @@ jobs:
         id: find
         env:
           EVENT: ${{ github.event_name }}
-          INPUT_PACK: ${{ inputs.pack }}
+          INPUT_PACK: ${{ inputs.pack && format('modpacks/{0}', inputs.pack) || '' }}
           BEFORE: ${{ github.event.before }}
           AFTER: ${{ github.sha }}
         run: bash scripts/detect-changed-packs.sh
@@ -56,10 +58,10 @@ jobs:
         id: meta
         run: |
           VERSION=$(grep '^version' "${{ matrix.pack }}/pack.toml" | head -1 | sed 's/version = "\(.*\)"/\1/')
-          PACK="${{ matrix.pack }}"
+          NAME=$(basename "${{ matrix.pack }}")
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
-          echo "versioned=builds/${PACK}-${VERSION}.mrpack" >> "$GITHUB_OUTPUT"
-          echo "latest=builds/${PACK}-latest.mrpack" >> "$GITHUB_OUTPUT"
+          echo "versioned=builds/${NAME}-${VERSION}.mrpack" >> "$GITHUB_OUTPUT"
+          echo "latest=builds/${NAME}-latest.mrpack" >> "$GITHUB_OUTPUT"
 
       - name: Export .mrpack
         working-directory: ${{ github.workspace }}

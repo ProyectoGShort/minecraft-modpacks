@@ -9,14 +9,14 @@
 
 set -euo pipefail
 
-# Returns a JSON array with every directory that contains a pack.toml
+# Returns a JSON array with every pack directory under modpacks/
 all_packs() {
-    find . -maxdepth 2 -name "pack.toml" \
-        | sed 's|/pack.toml||; s|^\./||' \
+    find modpacks -maxdepth 2 -name "pack.toml" \
+        | sed 's|/pack.toml||' \
         | jq -R . | jq -sc .
 }
 
-# Returns a JSON array with only directories that have changed files in this push
+# Returns a JSON array with only pack directories that have changed files in this push
 changed_packs() {
     local first_push="0000000000000000000000000000000000000000"
 
@@ -27,7 +27,8 @@ changed_packs() {
     fi
 
     git diff --name-only "$BEFORE" "$AFTER" \
-        | cut -d/ -f1 | sort -u \
+        | grep '^modpacks/' \
+        | cut -d/ -f1-2 | sort -u \
         | while read -r dir; do
             [ -f "$dir/pack.toml" ] && echo "$dir"
           done \
