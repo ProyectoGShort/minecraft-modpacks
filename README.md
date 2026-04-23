@@ -4,7 +4,7 @@ This repo uses [packwiz](https://packwiz.infra.link/) to keep the modpack as ver
 
 ## Requirements
 
-- [packwiz](https://packwiz.infra.link/) installed and on your `PATH`.
+- [packwiz](https://packwiz.infra.link/) on your `PATH`, **or** use the vendored binary in the repository root (see [Bundled packwiz](#bundled-packwiz) below).
 
 ## Pack layout
 
@@ -16,6 +16,33 @@ Inside the pack directory (e.g. `minecraft-aeronautics/`):
 | `index.toml` | File list with hashes (normally maintained by packwiz) |
 | `mods/*.pw.toml` | Per-mod metadata (download URL, hash, Modrinth update info) |
 | `config/` | Config files that end up under `overrides/config/` when exported |
+
+## Bundled packwiz
+
+This repository ships a local copy of the [packwiz](https://packwiz.infra.link/) CLI so you do not have to install it system-wide. Pick the build that matches your OS:
+
+| Environment | Use |
+|---------------|-----|
+| Windows | `packwiz.exe` in the repository root |
+| Linux / macOS (shell / Bash) | The Unix `packwiz` binary (no extension) in the repository root |
+
+Modpacks live under `modpacks/<name>/`. Each pack is identified by its `pack.toml`. From the **repository root**, pass `--pack-file` to every command that should affect a **specific** pack (refresh, update, export, etc.); otherwise packwiz may look for a pack in the current directory and miss the right project.
+
+Example (Bash, from repo root):
+
+```bash
+./packwiz refresh --pack-file modpacks/minecraft-aeronautics/pack.toml
+./packwiz update --pack-file modpacks/minecraft-aeronautics/pack.toml
+./packwiz modrinth export --pack-file modpacks/minecraft-aeronautics/pack.toml
+```
+
+Example (Windows `cmd` / PowerShell, from repo root):
+
+```powershell
+.\packwiz.exe refresh --pack-file modpacks\minecraft-aeronautics\pack.toml
+.\packwiz.exe update --pack-file modpacks\minecraft-aeronautics\pack.toml
+.\packwiz.exe modrinth export --pack-file modpacks\minecraft-aeronautics\pack.toml
+```
 
 ## Workflow
 
