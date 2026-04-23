@@ -1,0 +1,106 @@
+name: Export Modrinth packs
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      pack:
+        description: "Pack directory to export (leave empty to export all)"
+        required: false
+        default: ""
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    outputs:
+      packs: ${{ steps.find.outputs.packs }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Detect changed packs
+        id: find
+        run: |
+          find_all_packs() {
+            find . -maxdepth 2 -name "pack.toml" \
+              | sed 's|/pack.toml||' | sed 's|^\./||' \
+              | jq -R . | jq -sc .
+          }
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            if [ -n "${{ inputs.pack }}" ]; then
+              PACKS='["${{ inputs.pack }}"]'
+            else
+              PACKS=$(find_all_packs)
+            fi
+          else
+            BEFORE="${{ github.event.before }}"
+            if [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+              PACKS=$(find_all_packs)
+            else
+              PACKS=$(git diff --name-only "$BEFORE" "${{ github.sha }}" \
+                | grep -oP '^[^/]+' | sort -u \
+                | while read -r dir; do [ -f "$dir/pack.toml" ] && echo "$dir"; done \
+                | jq -R . | jq -sc .)
+            fi
+          fi
+
+          echo "packs=$PACKS" >> "$GITHUB_OUTPUT"
+          echo "Packs to export: $PACKS"
+
+  export:
+    needs: detect
+    if: ${{ needs.detect.outputs.packs != '[]' && needs.detect.outputs.packs != '' }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        pack: ${{ fromJson(needs.detect.outputs.packs) }}
+      fail-fast: false
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "stable"
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Get pack metadata
+        id: meta
+        run: |
+          VERSION=$(grep '^version' "${{ matrix.pack }}/pack.toml" | head -1 | sed 's/version = "\(.*\)"/\1/')
+          PACK="${{ matrix.pack }}"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "versioned=builds/${PACK}-${VERSION}.mrpack" >> "$GITHUB_OUTPUT"
+          echo "latest=builds/${PACK}-latest.mrpack" >> "$GITHUB_OUTPUT"
+
+      - name: Export .mrpack
+        working-directory: ${{ github.workspace }}
+        run: |
+          mkdir -p builds
+          packwiz modrinth export \
+            --pack-file "${{ matrix.pack }}/pack.toml" \
+            -o "${{ steps.meta.outputs.versioned }}"
+
+      - name: Copy latest
+        working-directory: ${{ github.workspace }}
+        run: cp "${{ steps.meta.outputs.versioned }}" "${{ steps.meta.outputs.latest }}"
+
+      - name: Commit to repository
+        working-directory: ${{ github.workspace }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "${{ steps.meta.outputs.versioned }}" "${{ steps.meta.outputs.latest }}"
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: export ${{ matrix.pack }} v${{ steps.meta.outputs.version }} [skip ci]"
+          git pull --rebase origin main
+          git push
