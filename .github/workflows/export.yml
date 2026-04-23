@@ -24,33 +24,12 @@ jobs:
 
       - name: Detect changed packs
         id: find
-        run: |
-          find_all_packs() {
-            find . -maxdepth 2 -name "pack.toml" \
-              | sed 's|/pack.toml||' | sed 's|^\./||' \
-              | jq -R . | jq -sc .
-          }
-
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            if [ -n "${{ inputs.pack }}" ]; then
-              PACKS='["${{ inputs.pack }}"]'
-            else
-              PACKS=$(find_all_packs)
-            fi
-          else
-            BEFORE="${{ github.event.before }}"
-            if [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
-              PACKS=$(find_all_packs)
-            else
-              PACKS=$(git diff --name-only "$BEFORE" "${{ github.sha }}" \
-                | grep -oP '^[^/]+' | sort -u \
-                | while read -r dir; do [ -f "$dir/pack.toml" ] && echo "$dir"; done \
-                | jq -R . | jq -sc .)
-            fi
-          fi
-
-          echo "packs=$PACKS" >> "$GITHUB_OUTPUT"
-          echo "Packs to export: $PACKS"
+        env:
+          EVENT: ${{ github.event_name }}
+          INPUT_PACK: ${{ inputs.pack }}
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: bash scripts/detect-changed-packs.sh
 
   export:
     needs: detect
