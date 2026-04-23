@@ -306,6 +306,11 @@ hash = "78715d26eaff5065c2c6edc56e2c53cb6d35f2c0b5c8835934d599e258d36a0e"
 metafile = true
 
 [[files]]
+file = "mods/easy-tpa.pw.toml"
+hash = "7471fac631fd0336407a2df140aab29a535e69204c607d0c84a913d494c14997"
+metafile = true
+
+[[files]]
 file = "mods/easylogin-neoforge-1.21.1-1.0.1.pw.toml"
 hash = "130c44b7839c0f27a819d12f0b4bad97fc8edff4dccc26573117859fb22e458c"
 metafile = true
