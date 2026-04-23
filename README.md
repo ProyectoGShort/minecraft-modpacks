@@ -80,3 +80,8 @@ packwiz update <file.pw.toml>  # one mod
 ```
 
 Use `packwiz help` and `packwiz <command> --help` for other sources (CurseForge, `url`, etc.).
+
+## Deploying to a server (itzg/docker-minecraft-server)
+
+> **Known bug (temporary):** after updating the `.mrpack`, the server does not pick up the new version automatically.
+> Delete the existing mrpack file from the server data directory and restart the container to force a clean reinstall.
