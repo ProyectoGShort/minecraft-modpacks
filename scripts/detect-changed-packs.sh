@@ -26,13 +26,27 @@ changed_packs() {
         return
     fi
 
-    git diff --name-only "$BEFORE" "$AFTER" \
-        | grep '^modpacks/' \
-        | cut -d/ -f1-2 | sort -u \
-        | while read -r dir; do
-            [ -f "$dir/pack.toml" ] && echo "$dir"
-          done \
-        | jq -R . | jq -sc .
+    # grep exits 1 when there are no matches; with pipefail that would fail the whole script
+    # (e.g. push that only touches README or files outside modpacks/).
+    local changed_dirs
+    changed_dirs=$(git diff --name-only "$BEFORE" "$AFTER" \
+        | { grep '^modpacks/' || true; } \
+        | cut -d/ -f1-2 | sort -u)
+
+    local packs=()
+    local dir
+    if [ -n "$changed_dirs" ]; then
+        while IFS= read -r dir; do
+            [ -z "$dir" ] && continue
+            [ -f "$dir/pack.toml" ] && packs+=("$dir")
+        done <<< "$changed_dirs"
+    fi
+
+    if [ "${#packs[@]}" -eq 0 ]; then
+        echo '[]'
+        return
+    fi
+    printf '%s\n' "${packs[@]}" | jq -R . | jq -sc .
 }
 
 # -----------------------------------------------------------------
