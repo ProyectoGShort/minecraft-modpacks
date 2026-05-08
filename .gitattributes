@@ -1,2 +1,4 @@
 # Disable Git line ending conversion, to prevent packwiz index hashes changing when committing from Windows
 * -text
+# Bash runs on Linux CI; CRLF breaks `#!/usr/bin/env bash` and `set -o pipefail`
+*.sh text eol=lf
