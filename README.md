@@ -92,7 +92,7 @@ This produces a `.mrpack` with `modrinth.index.json` and `overrides/`. Each mod�
 & .\tools\packwiz.exe --pack-file "$pack\pack.toml" --meta-folder-base $pack update <metadata-name>
 ```
 
-For a single mod, `<metadata-name>` is what packwiz expects after `refresh` — usually the `mods/*.pw.toml` filename without `.pw.toml` (for example `iris` for `mods/iris.pw.toml`).
+For a single mod, `<metadata-name>` is what packwiz expects after `refresh` — usually the `mods/*.pw.toml` filename without `.pw.toml` (for example `sodium-neoforge-0.6.13+mc1.21.1` for `mods/sodium-neoforge-0.6.13+mc1.21.1.pw.toml`).
 
 ### Help
 
