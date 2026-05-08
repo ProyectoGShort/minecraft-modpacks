@@ -69,10 +69,13 @@ jobs:
       - name: Export .mrpack
         working-directory: ${{ github.workspace }}
         run: |
-          packwiz refresh --pack-file "${{ matrix.pack }}/pack.toml"
+          packwiz refresh \
+            --pack-file "${{ matrix.pack }}/pack.toml" \
+            --meta-folder-base "${{ matrix.pack }}"
           mkdir -p builds
           packwiz modrinth export \
             --pack-file "${{ matrix.pack }}/pack.toml" \
+            --meta-folder-base "${{ matrix.pack }}" \
             -o "${{ steps.meta.outputs.versioned }}"
 
       - name: Copy latest
