@@ -2,13 +2,19 @@
 
 This repo uses [packwiz](https://packwiz.infra.link/) to keep the modpack as versioned TOML files and export a Modrinth `.mrpack`.
 
-## Requirements
+## Usage
 
-- [packwiz](https://packwiz.infra.link/) installed and on your `PATH`.
+Run **PowerShell from the repository root**. The binary is `.\tools\packwiz.exe`. Point at a pack with `--pack-file` (paths are relative to the repo root):
+
+```powershell
+.\tools\packwiz.exe --pack-file .\modpacks\minecraft-aeronautics\pack.toml <command> [args...]
+```
+
+For another pack under `modpacks/`, only change the `pack.toml` path.
 
 ## Pack layout
 
-Inside the pack directory (e.g. `minecraft-aeronautics/`):
+Inside a pack directory (e.g. `modpacks/minecraft-aeronautics/`):
 
 | Path | Purpose |
 |------|---------|
@@ -19,16 +25,12 @@ Inside the pack directory (e.g. `minecraft-aeronautics/`):
 
 ## Workflow
 
-From the pack root:
-
-```bash
-cd minecraft-aeronautics
-```
+Replace `<…>` as needed. The `--pack-file …` line is the same for every command.
 
 ### Add a mod (Modrinth)
 
-```bash
-packwiz modrinth add <Modrinth URL | slug | search term>
+```powershell
+.\tools\packwiz.exe --pack-file .\modpacks\minecraft-aeronautics\pack.toml modrinth add "<Modrinth URL | slug | search term>"
 ```
 
 Packwiz creates a `.pw.toml` using the version metadata from Modrinth (including client/server env when the author set it).
@@ -45,41 +47,50 @@ side = "both"     # both sides
 
 Then refresh the index:
 
-```bash
-packwiz refresh
+```powershell
+.\tools\packwiz.exe --pack-file .\modpacks\minecraft-aeronautics\pack.toml refresh
 ```
 
 ### Add or remove config files
 
-1. Create, edit, or delete files under `config/` (or elsewhere in the pack root as needed).
+1. Create, edit, or delete files under `modpacks/minecraft-aeronautics/config/` (or elsewhere in that pack root as needed).
 2. Regenerate the index:
 
-```bash
-packwiz refresh
+```powershell
+.\tools\packwiz.exe --pack-file .\modpacks\minecraft-aeronautics\pack.toml refresh
 ```
 
 ### List mods
 
-```bash
-packwiz list
+```powershell
+.\tools\packwiz.exe --pack-file .\modpacks\minecraft-aeronautics\pack.toml list
 ```
 
 ### Export a Modrinth `.mrpack`
 
-```bash
-packwiz modrinth export
+```powershell
+.\tools\packwiz.exe --pack-file .\modpacks\minecraft-aeronautics\pack.toml modrinth export
 ```
 
 This produces a `.mrpack` with `modrinth.index.json` and `overrides/`. Each mod’s `side` becomes the `env` field in the manifest so launchers skip client-only jars on servers (and the reverse) where supported.
 
 ### Update mods
 
-```bash
-packwiz update                 # everything that can update
-packwiz update <file.pw.toml>  # one mod
+```powershell
+.\tools\packwiz.exe --pack-file .\modpacks\minecraft-aeronautics\pack.toml update
+.\tools\packwiz.exe --pack-file .\modpacks\minecraft-aeronautics\pack.toml update <metadata-name>
 ```
 
-Use `packwiz help` and `packwiz <command> --help` for other sources (CurseForge, `url`, etc.).
+For a single mod, `<metadata-name>` is what packwiz expects after `refresh` — usually the `mods/*.pw.toml` filename without `.pw.toml` (for example `sodium-neoforge-0.6.13+mc1.21.1` for `mods/sodium-neoforge-0.6.13+mc1.21.1.pw.toml`).
+
+### Help
+
+```powershell
+.\tools\packwiz.exe --help
+.\tools\packwiz.exe modrinth --help
+```
+
+Use `.\tools\packwiz.exe <command> --help` for other commands (CurseForge, `url`, etc.).
 
 ## Deploying to a server (itzg/docker-minecraft-server)
 
