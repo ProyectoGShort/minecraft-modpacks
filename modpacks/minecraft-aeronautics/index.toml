@@ -206,7 +206,7 @@ hash = "bcf8125a8d0bb9b2b8029556acc9a3e55fd436d3ba7a053ee0abc88f1d7bbc96"
 
 [[files]]
 file = "config/paraglider-common.toml"
-hash = "e93dd2a534776ec2c7dbcadc1d865441bb72d68cc2d90cc672263f1b2d12a26b"
+hash = "a179d79897b6b47b47534b19ce1a8316f791cc9b9a74783a2687c4006254d772"
 
 [[files]]
 file = "config/paraglider-player-states.toml"
