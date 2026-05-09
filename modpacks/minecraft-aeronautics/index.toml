@@ -377,6 +377,14 @@ file = "config/antixray.toml"
 hash = "efd088caaad999165c83665bff218970e7671b9ed74cdde3d3483233a1917c3e"
 
 [[files]]
+file = "config/aoa3/client_config.toml"
+hash = "89d698f61ed53a57fc1d34d50cc99bbe86d3208bc8e73fefee01bb72c9d9b4d9"
+
+[[files]]
+file = "config/aoa3_server_config.toml"
+hash = "5c6c4614826ded59245ed38db7ce0bce2d808d9dfe7a518b871f444eb74bc37f"
+
+[[files]]
 file = "config/bettercombat/client.json5"
 hash = "2d853633deff976b16e7e973c168134886fe8c06ec5108a077d835db97b5ff18"
 
@@ -752,6 +760,11 @@ hash = "219e984fb0804f025eb1ebdbf7ebbc2385895c5d34e7378391c60979eb01d889"
 metafile = true
 
 [[files]]
+file = "mods/adventofascension.pw.toml"
+hash = "6a434781565f95ee97cfa28ff32bbe95e7823c937e2f421e86f189b4e9adbcd0"
+metafile = true
+
+[[files]]
 file = "mods/alexs-mobs(1.21.1).pw.toml"
 hash = "fb53bc6c0d543cd7e88a5faba1e3235dca6c556e0cf8c1a534bbdec581c3c2f8"
 metafile = true
@@ -994,4 +1007,14 @@ metafile = true
 [[files]]
 file = "mods/visuality-forge.pw.toml"
 hash = "e58928e10c503de8a82e8de066d7f17e96a1e67d7bc452386dac8695a48874fc"
+metafile = true
+
+[[files]]
+file = "mods/when-dungeons-arise-seven-seas.pw.toml"
+hash = "6817acd8f1a98c3e7c00e61507a9178fa9c7398b356f6e92704656a712157dcd"
+metafile = true
+
+[[files]]
+file = "mods/when-dungeons-arise.pw.toml"
+hash = "485906ff55a5d6ad06070abb80663d6adadc3e4b32f8b52240d8596e7aaef9fa"
 metafile = true
