@@ -384,6 +384,11 @@ hash = "219e984fb0804f025eb1ebdbf7ebbc2385895c5d34e7378391c60979eb01d889"
 metafile = true
 
 [[files]]
+file = "mods/alexs-mobs(1.21.1).pw.toml"
+hash = "fb53bc6c0d543cd7e88a5faba1e3235dca6c556e0cf8c1a534bbdec581c3c2f8"
+metafile = true
+
+[[files]]
 file = "mods/ambientsounds.pw.toml"
 hash = "f3d66527c4f82b44d9409f643332bc15f91b85f033afe147e3d8b421c0ea6d1e"
 metafile = true
@@ -401,6 +406,11 @@ metafile = true
 [[files]]
 file = "mods/better-combat.pw.toml"
 hash = "5486f656b149dd16ebd97ea62f3410372ad6883604f51e88d14f22c5263a8280"
+metafile = true
+
+[[files]]
+file = "mods/citadel-(1.21.1-port).pw.toml"
+hash = "80d7af83c244304212b8d95ab2e3525b3eeae02f31e41474c2cdec2f4d370723"
 metafile = true
 
 [[files]]
