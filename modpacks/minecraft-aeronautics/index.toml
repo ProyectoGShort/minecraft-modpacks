@@ -281,6 +281,21 @@ hash = "c9f5205a8d0c9f669b885ff579769f07a461b833a8e9ceea5b41640d36631e50"
 metafile = true
 
 [[files]]
+file = "mods/balm.pw.toml"
+hash = "392901b7f79963442553456af846d06f48b4057a054a928adb8a76eea13c6383"
+metafile = true
+
+[[files]]
+file = "mods/better-combat.pw.toml"
+hash = "5486f656b149dd16ebd97ea62f3410372ad6883604f51e88d14f22c5263a8280"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
+metafile = true
+
+[[files]]
 file = "mods/create-1.21.1-6.0.9.pw.toml"
 hash = "0891704bc0920acf069bafee4fdb56b581b6ab90a831a3ee1ec0bdc01dfb4c70"
 metafile = true
@@ -361,6 +376,11 @@ hash = "938e211e33e11aa2051c7fa554a97d19beedcf7be129e0c04ed67381777bcd1b"
 metafile = true
 
 [[files]]
+file = "mods/playeranimator.pw.toml"
+hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
+metafile = true
+
+[[files]]
 file = "mods/sable-neoforge-1.21.1-1.0.6.pw.toml"
 hash = "5ecf8e1b82aa0c81d29f17ae9b25e0d4ae7abb4fd3a9690e0e14f43a6dd65d40"
 metafile = true
@@ -373,4 +393,9 @@ metafile = true
 [[files]]
 file = "mods/sodium-neoforge-0.6.13+mc1.21.1.pw.toml"
 hash = "6a2118d00a39d76ecb3a8104f0816413642ecf1277d3ce7cd8cb168a81d761a1"
+metafile = true
+
+[[files]]
+file = "mods/trashslot.pw.toml"
+hash = "ef870d22b5ee7e2718a1d849680d25103aae0f5a0b7c569b99032803ea772e68"
 metafile = true
