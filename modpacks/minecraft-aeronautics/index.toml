@@ -109,6 +109,10 @@ file = "config/creeperoverhaul.jsonc"
 hash = "d8088bd461dd7666552c4174bac6549e55112728e07aa3addd0e32a805c230fc"
 
 [[files]]
+file = "config/dndecor-server.toml"
+hash = "faccba5a94a73907ea094de5145e20fc19219fa761d67aa1688287f40ab2e0c1"
+
+[[files]]
 file = "config/easylogin/config.toml"
 hash = "b69e2ee4d9e5f3418843fc43c33a73e3f219e31982263676d1ebd4fc8178e270"
 
