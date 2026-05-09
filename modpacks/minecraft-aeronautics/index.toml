@@ -5,8 +5,28 @@ file = "config/aeronautics-server.toml"
 hash = "a9302b0253e494e7d80f0a2785bf4514b0b67da85796437ca032482db62be514"
 
 [[files]]
+file = "config/ambientsounds-client.json"
+hash = "c98f572839ace55b0792042fa4b984311e7d876abdaccfc8a4694f5bebad766c"
+
+[[files]]
 file = "config/antixray.toml"
 hash = "efd088caaad999165c83665bff218970e7671b9ed74cdde3d3483233a1917c3e"
+
+[[files]]
+file = "config/bettercombat/client.json5"
+hash = "2d853633deff976b16e7e973c168134886fe8c06ec5108a077d835db97b5ff18"
+
+[[files]]
+file = "config/bettercombat/fallback_compatibility.json"
+hash = "754feb4474a3f4d9fe6bd08f38c248fd5a796ed51f38d7d5704680250f3a34ca"
+
+[[files]]
+file = "config/bettercombat/server.json5"
+hash = "b4d8fd935d23f528a177e95c8a45be52fa5f3e4cd2671802be1f44c80aef724a"
+
+[[files]]
+file = "config/bettercombat/weapon_trails.json"
+hash = "fd14cc025b6d6c54bc2ddff136f0298c0ba132dbe98c2c9c845b47b8286fc45c"
 
 [[files]]
 file = "config/create-client.toml"
@@ -75,6 +95,14 @@ hash = "9745e0b82765ee9ac86c4340a941e1f26c10b2da19296928d99169fc36dfea1a"
 [[files]]
 file = "config/createdieselgenerators-server.toml"
 hash = "f1e91d363fb7320dcd16e9562cbe89af6acdf43172611e5e70c432075aa3b81c"
+
+[[files]]
+file = "config/creativecore-client.json"
+hash = "acb6c8c1394d4d6f2d0c98d5c314c5ef8ad34b8a76f0a420fc596733bcbc51ac"
+
+[[files]]
+file = "config/creativecore.json"
+hash = "5f08d0878d7f89c6b4c947a49dce368d7738255d44fecf9aad59ec6ae8a4fcef"
 
 [[files]]
 file = "config/easylogin/config.toml"
@@ -177,6 +205,18 @@ file = "config/openpartiesandclaims-server.toml"
 hash = "bcf8125a8d0bb9b2b8029556acc9a3e55fd436d3ba7a053ee0abc88f1d7bbc96"
 
 [[files]]
+file = "config/paraglider-common.toml"
+hash = "e93dd2a534776ec2c7dbcadc1d865441bb72d68cc2d90cc672263f1b2d12a26b"
+
+[[files]]
+file = "config/paraglider-player-states.toml"
+hash = "5b5d04980f4459e32ff654d8da2a692533ec5dea34b5d412bd7bc82dac49dfb0"
+
+[[files]]
+file = "config/paraglider-server.toml"
+hash = "6e846f966bb462a682cfbd90804fa5067813db760a000d48214ae56e9a2557e4"
+
+[[files]]
 file = "config/ponder-client.toml"
 hash = "55affffe67e84dfe11e590769e235aee999b77f9484a3adf7ee8247a9f3d35ba"
 
@@ -229,6 +269,22 @@ file = "config/sodium-options.json"
 hash = "592d14ea22405d4057e1ec1e04902a00fd9f6a623e385261c1e4e17cc78b03ab"
 
 [[files]]
+file = "config/sophisticatedbackpacks-common.toml"
+hash = "390cb983090cdc5ba9013c0551fcde8ecf579040f970e33de5ecfc500841cb7f"
+
+[[files]]
+file = "config/sophisticatedbackpacks-server.toml"
+hash = "3031e3bdbe3c8004ff06da2f1d5c4c799ddc72c493fca8a2c398c8c42afe9d23"
+
+[[files]]
+file = "config/sophisticatedcore-client.toml"
+hash = "12f65a872b73c931b0a192d7e95c7d89f7ef7f1fd33f3ee7ff6bbda12fb8845f"
+
+[[files]]
+file = "config/sophisticatedcore-common.toml"
+hash = "12c9cacbfda7654b191a471bc0a50ebfe0851cb267428f0c707d5b892bd44d6f"
+
+[[files]]
 file = "config/tpa/config/configuration.toml"
 hash = "bc50d0b78af4c814ca811a67fa55bebb0b7496b177c4463ed091c637cb5db158"
 
@@ -237,8 +293,32 @@ file = "config/transition.json"
 hash = "11e2fd51f2487c460fd659f0c5824a14e3643d0629888988d0c87a2a1dabcbce"
 
 [[files]]
+file = "config/trashslot-common.toml"
+hash = "6cd3a10e6f7eaacf14aa46fa68dc141efbad30b32f3eabab8a82781fe96fea28"
+
+[[files]]
 file = "config/trender.json"
 hash = "59086d6236b1d9364abda6e42b69ae8d782d90995a52db2b00eac5fe1293a828"
+
+[[files]]
+file = "config/visuality/config.toml"
+hash = "8eb00d7011fe645839281c68c3c67fb28cdc97e4541bc6b45d94426ffd3bfd50"
+
+[[files]]
+file = "config/visuality/particle_emitters/block_ambient.json"
+hash = "bd951562cd4789494eeadab9cb79d82ca79804969111603f8dc638b70fa8def3"
+
+[[files]]
+file = "config/visuality/particle_emitters/block_step.json"
+hash = "54d4448f6c45ba1ad311f6c35b55b9b800ad4ae664f075707e05cd798b6eab7b"
+
+[[files]]
+file = "config/visuality/particle_emitters/entity_armor.json"
+hash = "83bcfff6c0eaf573b3cef8fd85e7045b66c91c7a5bf0415942d77c45476e23cc"
+
+[[files]]
+file = "config/visuality/particle_emitters/entity_hit.json"
+hash = "db1fe2d772c0ed136c2d1da0c315bc50ba9760032a60253be6f37ce1d7e38ead"
 
 [[files]]
 file = "mods/1.21.1_SecurityCraft_v1.10.1.pw.toml"
