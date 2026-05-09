@@ -276,6 +276,11 @@ hash = "219e984fb0804f025eb1ebdbf7ebbc2385895c5d34e7378391c60979eb01d889"
 metafile = true
 
 [[files]]
+file = "mods/ambientsounds.pw.toml"
+hash = "f3d66527c4f82b44d9409f643332bc15f91b85f033afe147e3d8b421c0ea6d1e"
+metafile = true
+
+[[files]]
 file = "mods/antixray-neoforge-1.4.7+1.21.1.pw.toml"
 hash = "c9f5205a8d0c9f669b885ff579769f07a461b833a8e9ceea5b41640d36631e50"
 metafile = true
@@ -336,6 +341,11 @@ hash = "15edf67ea0c16c28231c1dfe6aa7bafaa22bce301fc9397eb361e1e2d812b9a7"
 metafile = true
 
 [[files]]
+file = "mods/creativecore.pw.toml"
+hash = "d6e8a17cd30032fb2eaeb910f65ffca9cd41a6530b607d58dfa18ac619b6d9f1"
+metafile = true
+
+[[files]]
 file = "mods/easy-tpa.pw.toml"
 hash = "a05e53cd7803dd9732b9c6f5042778833ac2c1db4af564f18b8f8af4f465c9b2"
 metafile = true
@@ -376,6 +386,11 @@ hash = "938e211e33e11aa2051c7fa554a97d19beedcf7be129e0c04ed67381777bcd1b"
 metafile = true
 
 [[files]]
+file = "mods/paragliders.pw.toml"
+hash = "c323e7a690fc87db51353a7106e275d89e3947826070c0b02c3a4717361dde63"
+metafile = true
+
+[[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
 metafile = true
@@ -396,6 +411,21 @@ hash = "6a2118d00a39d76ecb3a8104f0816413642ecf1277d3ce7cd8cb168a81d761a1"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "bce52f752c8d3bae9ed17dba8f96ec7ff3f1ab7032fe2258a9573e1a8657bb85"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core.pw.toml"
+hash = "e6f7c1b43dbb3a62dd8638228eb17a942a37e6aa50a8f32e9625769c6d4e090e"
+metafile = true
+
+[[files]]
 file = "mods/trashslot.pw.toml"
 hash = "ef870d22b5ee7e2718a1d849680d25103aae0f5a0b7c569b99032803ea772e68"
+metafile = true
+
+[[files]]
+file = "mods/visuality-forge.pw.toml"
+hash = "e58928e10c503de8a82e8de066d7f17e96a1e67d7bc452386dac8695a48874fc"
 metafile = true
