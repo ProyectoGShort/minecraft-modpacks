@@ -105,8 +105,20 @@ file = "config/creativecore.json"
 hash = "5f08d0878d7f89c6b4c947a49dce368d7738255d44fecf9aad59ec6ae8a4fcef"
 
 [[files]]
+file = "config/creeperoverhaul.jsonc"
+hash = "d8088bd461dd7666552c4174bac6549e55112728e07aa3addd0e32a805c230fc"
+
+[[files]]
 file = "config/easylogin/config.toml"
 hash = "b69e2ee4d9e5f3418843fc43c33a73e3f219e31982263676d1ebd4fc8178e270"
+
+[[files]]
+file = "config/endermanoverhaul-client.jsonc"
+hash = "7fcc9808465cc6ac8f57426b568516f7ad9ba3197be8f3692ead91253f8bef7a"
+
+[[files]]
+file = "config/endermanoverhaul.jsonc"
+hash = "94d584e93f86976673fc36fd3834f407444a452199fc4bb9adff6ba320c3e881"
 
 [[files]]
 file = "config/farmersdelight-client.toml"
@@ -173,6 +185,14 @@ file = "config/journeypac-client.toml"
 hash = "be8cb7a09b6b8fbedd0835ee980323d0f720fa91f0231281fd16c52ee26e2912"
 
 [[files]]
+file = "config/moonlight-client.toml"
+hash = "3f252fefef0345f9aa8a8d3b7eff02f045b8bf565329eeba9ec50c7989a63457"
+
+[[files]]
+file = "config/moonlight-common.toml"
+hash = "a6d5e783dc1469e925d4cf62f17a94ee2dff4ff025d9ed9e61b129581019cdf3"
+
+[[files]]
 file = "config/naturescompass-client.toml"
 hash = "a5d664ed8aeecd77bd09611cba93d5f8e3194da8140666d3e97a0c4973dd0981"
 
@@ -221,6 +241,10 @@ file = "config/ponder-client.toml"
 hash = "55affffe67e84dfe11e590769e235aee999b77f9484a3adf7ee8247a9f3d35ba"
 
 [[files]]
+file = "config/resourceful-config-web.json"
+hash = "a76791dac2ea99cce0b9c61d7210f1df176b8f829f56ea72076f4e99f1244a7a"
+
+[[files]]
 file = "config/sable-client-1.toml.bak"
 hash = "0abc8a8f2ce730e440521d4d3d2cb45ec475e9d5a0e01e17e74cfbd63a0bd26b"
 
@@ -235,6 +259,10 @@ hash = "0abc8a8f2ce730e440521d4d3d2cb45ec475e9d5a0e01e17e74cfbd63a0bd26b"
 [[files]]
 file = "config/sable-common.toml"
 hash = "5d10408ecdb80544b66bafb2c50a92c7aff961040d60e007c36258fb274b79cb"
+
+[[files]]
+file = "config/sawmill-common.toml"
+hash = "6d42c3a82a1e6663badf4408764a03a5ff8a99052dae0a8dfdfc4fb5ad73175d"
 
 [[files]]
 file = "config/securitycraft-client.toml"
