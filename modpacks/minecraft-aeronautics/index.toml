@@ -399,6 +399,11 @@ hash = "c9f5205a8d0c9f669b885ff579769f07a461b833a8e9ceea5b41640d36631e50"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "392901b7f79963442553456af846d06f48b4057a054a928adb8a76eea13c6383"
 metafile = true
@@ -434,8 +439,23 @@ hash = "f9c48a2e2b4b5f3910e127e3f2219f86a2c33fd117732d80dafbcfdf00c1b9d4"
 metafile = true
 
 [[files]]
+file = "mods/create-deco.pw.toml"
+hash = "67a405e6307f900d168deaa954a4309c3b44a6025e4efd7b8e774b6f9d3a69cd"
+metafile = true
+
+[[files]]
+file = "mods/create-design-n-decor.pw.toml"
+hash = "bc4ef8bd7d32506703dcc175a62a12766addc393434ddbe8d17f01b071701943"
+metafile = true
+
+[[files]]
 file = "mods/create-enchantment-industry-2.3.0.pw.toml"
 hash = "cc8f6fb492bff00c6f7de049f7d8d37083197d004cc5e6d20d714368610ef4a1"
+metafile = true
+
+[[files]]
+file = "mods/create-prismatic-shine.pw.toml"
+hash = "cbc7ea97d76516a5005a86388c65aaf36ff1e0558272c2e09a9533d3a4d5e82f"
 metafile = true
 
 [[files]]
@@ -494,6 +514,11 @@ hash = "2ac1df7fad83d36e69b4aaad32f0b952c9b039d7345592bb66934f40a8606224"
 metafile = true
 
 [[files]]
+file = "mods/interiors.pw.toml"
+hash = "e7e6b3effe3022cf1fdb900c857111fdcbfd6b385c2d5bd28c914efaed436ecb"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
 hash = "5367193d3f87b7bc5a81bcd64a5b96a843e76d4df7a83c8bb7e1911aa82dd52e"
 metafile = true
@@ -506,6 +531,11 @@ metafile = true
 [[files]]
 file = "mods/kotlinforforge-5.11.0-all.pw.toml"
 hash = "d78955931930ea6ab900aa15cd0eb4e11f9b24b0046acdacdb1a347639bd491b"
+metafile = true
+
+[[files]]
+file = "mods/lets-do-furniture.pw.toml"
+hash = "07001924cb1dbf26307911da978169f9be39eccb685eba1d07961e74bcaaaa14"
 metafile = true
 
 [[files]]
@@ -586,6 +616,11 @@ metafile = true
 [[files]]
 file = "mods/universal-sawmill.pw.toml"
 hash = "c41f6ccffb66b9095efabea4eda10dd61bdb375cbeccbab638b3c139c1b00161"
+metafile = true
+
+[[files]]
+file = "mods/unusual-furniture.pw.toml"
+hash = "2441abf8ae001e8f2ddede167b559fd9ab1a402618ad95d22f4f9d1b2fdcef14"
 metafile = true
 
 [[files]]
