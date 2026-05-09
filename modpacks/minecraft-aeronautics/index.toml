@@ -206,7 +206,7 @@ hash = "bcf8125a8d0bb9b2b8029556acc9a3e55fd436d3ba7a053ee0abc88f1d7bbc96"
 
 [[files]]
 file = "config/paraglider-common.toml"
-hash = "e93dd2a534776ec2c7dbcadc1d865441bb72d68cc2d90cc672263f1b2d12a26b"
+hash = "a179d79897b6b47b47534b19ce1a8316f791cc9b9a74783a2687c4006254d772"
 
 [[files]]
 file = "config/paraglider-player-states.toml"
@@ -426,6 +426,11 @@ hash = "d6e8a17cd30032fb2eaeb910f65ffca9cd41a6530b607d58dfa18ac619b6d9f1"
 metafile = true
 
 [[files]]
+file = "mods/creeper-overhaul.pw.toml"
+hash = "cd4c4ec6ef26d2b61e0cb0bdd398e8d528b88ebf739fc0898bc8cb2f7a88debb"
+metafile = true
+
+[[files]]
 file = "mods/easy-tpa.pw.toml"
 hash = "a05e53cd7803dd9732b9c6f5042778833ac2c1db4af564f18b8f8af4f465c9b2"
 metafile = true
@@ -433,6 +438,16 @@ metafile = true
 [[files]]
 file = "mods/easylogin-neoforge-1.21.1-1.0.1.pw.toml"
 hash = "8ed1d7bfd20585e5ed032970ca024ef00db94b687f615406a9faa0f5a4c7395e"
+metafile = true
+
+[[files]]
+file = "mods/enderman-overhaul.pw.toml"
+hash = "1045ba1bb46eb77e2fea9be04268c2c73c161b94f3bceddbd4c3dbff1c0bf555"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+hash = "0521ed2becdf2b460511c92e80e2702a4b6e540c85c99fb571844e1c7c505724"
 metafile = true
 
 [[files]]
@@ -456,6 +471,11 @@ hash = "d78955931930ea6ab900aa15cd0eb4e11f9b24b0046acdacdb1a347639bd491b"
 metafile = true
 
 [[files]]
+file = "mods/moonlight.pw.toml"
+hash = "2f14e94f4642986d2a5ac68cd623737e4b62b53517c9c1b164ce7b516ac3c671"
+metafile = true
+
+[[files]]
 file = "mods/notenoughanimations-neoforge-1.12.2-mc1.21.1.pw.toml"
 hash = "85fcb36a16777b14a9ddc53e4e60126db7fad057c59d5e5948359566f41be405"
 metafile = true
@@ -471,8 +491,28 @@ hash = "c323e7a690fc87db51353a7106e275d89e3947826070c0b02c3a4717361dde63"
 metafile = true
 
 [[files]]
+file = "mods/platform.pw.toml"
+hash = "0ca90a25548289e4149c3d8435d50b75ff28bb83f973bf3e2cdc8a0b4b911acc"
+metafile = true
+
+[[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-config.pw.toml"
+hash = "27721caca5a03b743bf25888e1d984142948069dace31453f103f94f7f24d2ce"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
+metafile = true
+
+[[files]]
+file = "mods/rottencreatures.pw.toml"
+hash = "fffc4ce08823b44a89f5117fc3feabfa4a5ec92abf3ce18debd6017e04331aaf"
 metafile = true
 
 [[files]]
@@ -503,6 +543,11 @@ metafile = true
 [[files]]
 file = "mods/trashslot.pw.toml"
 hash = "ef870d22b5ee7e2718a1d849680d25103aae0f5a0b7c569b99032803ea772e68"
+metafile = true
+
+[[files]]
+file = "mods/universal-sawmill.pw.toml"
+hash = "c41f6ccffb66b9095efabea4eda10dd61bdb375cbeccbab638b3c139c1b00161"
 metafile = true
 
 [[files]]
