@@ -22,3 +22,4 @@ renderDistance:8
 simulationDistance:12
 screenEffectScale:1.0
 menuBackgroundBlurriness:5
+key_justzoom.keybinds.keybind.zoom:key.mouse.5
