@@ -5,6 +5,10 @@ file = "config/DistantHorizons.toml"
 hash = "595792390364f3f2327e09389e16a7bf44670ccdd93120339f74517941c90110"
 
 [[files]]
+file = "config/aeroclaims-server.toml"
+hash = "b6b53a79d42c70d29a127787f62e4a29fc238eec8534ee984973ac2956197a69"
+
+[[files]]
 file = "config/aeronautics-server.toml"
 hash = "a9302b0253e494e7d80f0a2785bf4514b0b67da85796437ca032482db62be514"
 
@@ -774,6 +778,11 @@ metafile = true
 [[files]]
 file = "mods/adventofascension.pw.toml"
 hash = "6a434781565f95ee97cfa28ff32bbe95e7823c937e2f421e86f189b4e9adbcd0"
+metafile = true
+
+[[files]]
+file = "mods/aeronautics-claims.pw.toml"
+hash = "271c1d0e624c08a6318dd65c44c419a6d00e703e747a32c841bd4f9871895b8b"
 metafile = true
 
 [[files]]
