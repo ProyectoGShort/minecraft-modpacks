@@ -1,2 +1,0 @@
-#Sun Jun 29 20:27:00 CEST 2025
-Fog=false
