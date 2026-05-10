@@ -1058,11 +1058,3 @@ hash = "20897248a5fe91b33bf7fd4b75959c30aa2003df195297979a410ee37d3bb62f"
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.5.1.zip.txt"
 hash = "b1d4d22aae12693f8b643794504a55830ce2b75cdd049588a56e39c69e438b9e"
-
-[[files]]
-file = "shaderpacks/Sildur's Vibrant Shaders v1.53 High.zip"
-hash = "a9fedfdef30e640744b5fc2fa72959163f99b44309ef40ca436ea73275ea3c7b"
-
-[[files]]
-file = "shaderpacks/Sildur's Vibrant Shaders v1.53 High.zip.txt"
-hash = "665f900e28df552df10e0af5ecac5ecd68207365fd643485393ea76713cc8712"
