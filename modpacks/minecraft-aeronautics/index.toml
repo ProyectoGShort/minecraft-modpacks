@@ -705,10 +705,6 @@ file = "config/terrablender.toml"
 hash = "cff6a9a0d415b19b9852844c0ad5bb2b1cfdb9fce12e729e7228a6521fc95927"
 
 [[files]]
-file = "config/tpa/config/configuration.toml"
-hash = "bc50d0b78af4c814ca811a67fa55bebb0b7496b177c4463ed091c637cb5db158"
-
-[[files]]
 file = "config/transition.json"
 hash = "11e2fd51f2487c460fd659f0c5824a14e3643d0629888988d0c87a2a1dabcbce"
 
@@ -806,7 +802,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
+hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
 metafile = true
 
 [[files]]
@@ -900,11 +896,6 @@ hash = "56cb2e8e396bf26b56ffe0a44c794984435c35e15959ff46539bb8aead85ad77"
 metafile = true
 
 [[files]]
-file = "mods/easy-tpa.pw.toml"
-hash = "a05e53cd7803dd9732b9c6f5042778833ac2c1db4af564f18b8f8af4f465c9b2"
-metafile = true
-
-[[files]]
 file = "mods/easylogin-neoforge-1.21.1-1.0.1.pw.toml"
 hash = "8ed1d7bfd20585e5ed032970ca024ef00db94b687f615406a9faa0f5a4c7395e"
 metafile = true
@@ -912,6 +903,16 @@ metafile = true
 [[files]]
 file = "mods/enderman-overhaul.pw.toml"
 hash = "1045ba1bb46eb77e2fea9be04268c2c73c161b94f3bceddbd4c3dbff1c0bf555"
+metafile = true
+
+[[files]]
+file = "mods/ftb-essentials.pw.toml"
+hash = "aaa5d15a2ebf6ae368561fc49d7994ffa5084138942095cb4ded4c8921189437"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "54b6ce5c7ccf54db4cf8888e1c7e56b2d840cddc0e3e3fd15869a03d5c76c2ef"
 metafile = true
 
 [[files]]
