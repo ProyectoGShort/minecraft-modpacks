@@ -1,0 +1,13 @@
+name = "customguns v2.2.2"
+filename = "customguns-v2.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qF3eqZ1A/versions/GtjAOHAL/customguns-v2.2.2.jar"
+hash-format = "sha512"
+hash = "8a521569a567cd94e6386b2e20984885ef37a88860f509aabe3029730d7a96efb54dac411a6ef88942b2d03f108d7aea0dfac670b3ce0a0f54eac6ad175f8f5c"
+
+[update]
+[update.modrinth]
+mod-id = "qF3eqZ1A"
+version = "GtjAOHAL"

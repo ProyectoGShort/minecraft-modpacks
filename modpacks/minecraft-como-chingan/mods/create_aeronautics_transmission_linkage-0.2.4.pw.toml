@@ -1,0 +1,13 @@
+name = "create aeronautics transmission linkage 0.2.4"
+filename = "create_aeronautics_transmission_linkage-0.2.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Y1dq5ioE/versions/NSxDbPV2/create_aeronautics_transmission_linkage-0.2.4.jar"
+hash-format = "sha512"
+hash = "6bc5287bfe4295e9fad4978e5a1cf6ef6a403ebbd6929d882cf011d86667ec599639427c6c3b821f7c755e5495d0535c9c7a3da9976a71b594a86b3ef52544f1"
+
+[update]
+[update.modrinth]
+mod-id = "Y1dq5ioE"
+version = "NSxDbPV2"

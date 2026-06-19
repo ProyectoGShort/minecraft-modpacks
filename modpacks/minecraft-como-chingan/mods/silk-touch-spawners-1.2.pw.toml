@@ -1,0 +1,13 @@
+name = "silk touch spawners 1.2"
+filename = "silk-touch-spawners-1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IXOXPWmA/versions/W27ZuItD/silk-touch-spawners-1.2.jar"
+hash-format = "sha512"
+hash = "abcdd6b73840a8b9bcd105a3167f3e308d985816ebdec80ba821057c2174a983d3e6b46610bf5e82aa08755f6c141a0566e2bdafebbccf9f9dd2150a5b9e9429"
+
+[update]
+[update.modrinth]
+mod-id = "IXOXPWmA"
+version = "W27ZuItD"

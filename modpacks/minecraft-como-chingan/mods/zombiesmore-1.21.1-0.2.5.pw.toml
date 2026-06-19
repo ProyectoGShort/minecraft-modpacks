@@ -1,0 +1,13 @@
+name = "zombiesmore 1.21.1 0.2.5"
+filename = "zombiesmore-1.21.1-0.2.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xQt4K5ae/versions/e0WikpNT/zombiesmore-1.21.1-0.2.5.jar"
+hash-format = "sha512"
+hash = "76bae0d56e38e1f9e70a822a57271b1fb3d1c5cfe1ba7bb858c22cc1a1e11bd15c3fadcd0ecec53670a6bd347891222a3da82e739479133437acde27e678cfec"
+
+[update]
+[update.modrinth]
+mod-id = "xQt4K5ae"
+version = "e0WikpNT"

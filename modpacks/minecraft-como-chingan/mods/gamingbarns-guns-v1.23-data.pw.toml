@@ -1,0 +1,13 @@
+name = "gamingbarns guns v1.23 data"
+filename = "gamingbarns-guns-v1.23-data.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gLko9Axn/versions/bTnH3hih/gamingbarns-guns-v1.23-data.jar"
+hash-format = "sha512"
+hash = "07e21ded0f36a4afdaf05e1c3fc61bf1bebf124008f6f8530f55d67dafc7b356d36383f91bbd36cd7e22bea63a2caee6464c489e54d55da56995312b3450d695"
+
+[update]
+[update.modrinth]
+mod-id = "gLko9Axn"
+version = "bTnH3hih"
