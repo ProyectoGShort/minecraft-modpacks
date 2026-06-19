@@ -1,0 +1,13 @@
+name = "create pillagers arise 132.32 Release neoforge 1.21.1"
+filename = "create_pillagers_arise-132.32 Release-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VT2rW2wr/versions/PXXtJByp/create_pillagers_arise-132.32%20Release-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "fbc90f0e918d834c72e067fa64a836d2022de846c652156f25e2c4b56fe1c979bbbda45fe7595273680039b9a48552dc250cf6dbc2b8c0e8f7ae1963018e6e0d"
+
+[update]
+[update.modrinth]
+mod-id = "VT2rW2wr"
+version = "PXXtJByp"

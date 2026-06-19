@@ -1,0 +1,13 @@
+name = "structures 1.1"
+filename = "structures-1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PZIWeQhv/versions/z4PUwNle/structures-1.1.jar"
+hash-format = "sha512"
+hash = "b5b508df46e2ef719f17d3baef6ea53cd7a9bdff67cec9f425f59a62e57b92a4733c58583cbea2e2e20769b4052adfd1c921785970943307a62d4d677d9bff98"
+
+[update]
+[update.modrinth]
+mod-id = "PZIWeQhv"
+version = "z4PUwNle"

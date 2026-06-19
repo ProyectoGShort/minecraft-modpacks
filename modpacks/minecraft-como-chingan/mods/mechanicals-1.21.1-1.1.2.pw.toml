@@ -1,0 +1,13 @@
+name = "mechanicals 1.21.1 1.1.2"
+filename = "mechanicals-1.21.1-1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ProvjTA7/versions/WHPpCoW7/mechanicals-1.21.1-1.1.2.jar"
+hash-format = "sha512"
+hash = "809378270854ef98f888ce18c3e1dfc9a999c281bf051fc7aab41e5248e8c71cc4fd2d298376880965aca8cc1671f2829558ff948f16bc84386499c0550ad90d"
+
+[update]
+[update.modrinth]
+mod-id = "ProvjTA7"
+version = "WHPpCoW7"

@@ -1,0 +1,13 @@
+name = "Minecraft Como Chingan"
+author = "Jesús de la Casa"
+version = "2.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "8582f41e60695374d5a65a7c551b5bd6688158ad1a685b53a22e86e878eb3d76"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.233"

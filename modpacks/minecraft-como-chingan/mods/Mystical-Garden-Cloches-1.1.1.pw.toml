@@ -1,0 +1,13 @@
+name = "Mystical Garden Cloches 1.1.1"
+filename = "Mystical-Garden-Cloches-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rXx8Y8Aw/versions/ZFqK56vj/Mystical-Garden-Cloches-1.1.1.jar"
+hash-format = "sha512"
+hash = "a9c1f54c8bc56eca243d36e42f8aace0d62a9f7184810256976d6ced6992f2b62cd1d8ef4998eb8f204a1d9596dc4581cb3fe760f04cb26ac10451720eec4243"
+
+[update]
+[update.modrinth]
+mod-id = "rXx8Y8Aw"
+version = "ZFqK56vj"

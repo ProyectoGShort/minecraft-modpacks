@@ -1,0 +1,13 @@
+name = "gristlayermap 1.2.1"
+filename = "gristlayermap-1.2.1.jar.disabled"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NateHHTl/versions/G2SpmtDR/gristlayermap-1.2.1.jar"
+hash-format = "sha512"
+hash = "789463ad857099cf48282834629d504a20510b526b5653ca295902e6eb05d7a6ea13a1569fb6fd09fb7e00a0ba915b5e035a6f729e21143b34b47d894040797e"
+
+[update]
+[update.modrinth]
+mod-id = "NateHHTl"
+version = "G2SpmtDR"

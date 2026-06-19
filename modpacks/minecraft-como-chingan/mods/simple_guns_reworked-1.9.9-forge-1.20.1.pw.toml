@@ -1,0 +1,13 @@
+name = "simple guns reworked 1.9.9 forge 1.20.1"
+filename = "simple_guns_reworked-1.9.9-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1E0PBIhL/versions/3OrRfz2M/simple_guns_reworked-1.9.9-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "fae369af14aa084feb34d893b5b18f4f8254a77373e6f03cbf5b4d84cc91b1cfa8fb7c78bad7260c03700e3c21e3830aa6db5aa346f19e819d9cd82148dba606"
+
+[update]
+[update.modrinth]
+mod-id = "1E0PBIhL"
+version = "3OrRfz2M"

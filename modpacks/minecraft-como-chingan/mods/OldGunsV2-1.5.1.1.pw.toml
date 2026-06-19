@@ -1,0 +1,13 @@
+name = "OldGunsV2 1.5.1.1"
+filename = "OldGunsV2-1.5.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7rAclWoX/versions/XB0w5zES/OldGunsV2-1.5.1.1.jar"
+hash-format = "sha512"
+hash = "3e62bf72f682a2c45e4569e0b68868649f5516a52d97db95d77ae0c26029d0ca79305be2e05282c12109ed50fe8ef2400fbfb6b8e6bff553bf176bf3b56deb88"
+
+[update]
+[update.modrinth]
+mod-id = "7rAclWoX"
+version = "XB0w5zES"

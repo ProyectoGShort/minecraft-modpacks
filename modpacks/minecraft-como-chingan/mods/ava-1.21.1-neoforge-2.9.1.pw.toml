@@ -1,0 +1,13 @@
+name = "ava 1.21.1 neoforge 2.9.1"
+filename = "ava-1.21.1-neoforge-2.9.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VXgaJQ9n/versions/icwqqFTO/ava-1.21.1-neoforge-2.9.1.jar"
+hash-format = "sha512"
+hash = "e30d6a2fac0b9dc171b6e24a5861dd7a369cfb08d5e7e31d877ff25256206bf7487a85101708e53a461e470c07f9408bbc7b597abfe6a5b27e6c1b4776b47862"
+
+[update]
+[update.modrinth]
+mod-id = "VXgaJQ9n"
+version = "icwqqFTO"

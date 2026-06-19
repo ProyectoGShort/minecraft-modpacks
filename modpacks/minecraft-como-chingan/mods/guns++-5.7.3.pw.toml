@@ -1,0 +1,13 @@
+name = "guns++ 5.7.3"
+filename = "guns++-5.7.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kdch0Jxf/versions/CzYFPPct/guns%2B%2B-5.7.3.jar"
+hash-format = "sha512"
+hash = "176f32f5ba484c76b6cac76ce7fcebc03c5fbb0823e5784ffdf0d998da2940a2cecef6c0a0f3282d62353052adbf42e081a7665d3da48b0f952f9e3af7c4cfc7"
+
+[update]
+[update.modrinth]
+mod-id = "kdch0Jxf"
+version = "CzYFPPct"
