@@ -99,11 +99,6 @@ hash = "c29c3194ccd8429df021b140cd430f20be28c637bf4da1a21fdb315aced4040f"
 metafile = true
 
 [[files]]
-file = "mods/Mystical-Garden-Cloches-1.1.1.pw.toml"
-hash = "7fc26452302a18a3caefd25ee2bfe66687886418e3c7d7bf596044f7b7395e49"
-metafile = true
-
-[[files]]
 file = "mods/MysticalAgradditions-1.21.1-8.0.13.pw.toml"
 hash = "09cde45ee6683c2bfbc03e923190d9104bdb2914d0b16ef58e9151b67c55380d"
 metafile = true
