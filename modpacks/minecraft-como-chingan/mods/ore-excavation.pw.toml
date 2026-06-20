@@ -1,0 +1,13 @@
+name = "Ore Excavation"
+filename = "OreExcavation-NeoForge-1.21.1-1.16.43.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4c5d7210eee96e86b4da947509fd830011caef97"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6327284
+project-id = 250898
