@@ -194,6 +194,11 @@ hash = "e488d81d7a742bec9387581af0ad9b2e7d4e340925a51b60e13b5c80d5c1a567"
 metafile = true
 
 [[files]]
+file = "mods/bonsai-trees.pw.toml"
+hash = "8105b7cb6eb06eca4be8e9a83406fe7fb7e7f62abea8501125fbe52b7e47d483"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf-neoforge-1.21.1-21.1.81.pw.toml"
 hash = "e14bcc84b90e88a0f8df648d6c58c50d8cafe39f583ab97ff9c2d4439e2b0047"
 metafile = true
@@ -479,6 +484,11 @@ hash = "afaff4cd95e6f59fdafafa782dad0db29409ba62207e6f4ac0839e0f83e08d1b"
 metafile = true
 
 [[files]]
+file = "mods/ore-excavation.pw.toml"
+hash = "8a32a12fac64157e5773f60611f565e1335c4d5b9b5c7f679de5f70dc65e6409"
+metafile = true
+
+[[files]]
 file = "mods/powergrid-mc1.21.1-0.5.5.1.pw.toml"
 hash = "3954390c844a331d379f59c9616177d4ecf9c3fa20246b719bc58f28959c5e18"
 metafile = true
@@ -486,6 +496,11 @@ metafile = true
 [[files]]
 file = "mods/prickle-neoforge-1.21.1-21.1.11.pw.toml"
 hash = "906317bd188cededea3c9b98c983e00e1d47c097bd1b94caf3e3cd7d20a07462"
+metafile = true
+
+[[files]]
+file = "mods/retro-damage-indicators.pw.toml"
+hash = "ba76693f55482df48a233d1429477b6aee8cb3e191af8a2e8e7d290017ae839c"
 metafile = true
 
 [[files]]
