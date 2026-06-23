@@ -414,6 +414,11 @@ hash = "b6641fc7025ae5e9ed1b408cddad0fbc2c6ac5031d0fd72d4fbc3f4c0e5c4fa4"
 metafile = true
 
 [[files]]
+file = "mods/gravestone-mod.pw.toml"
+hash = "e88253c3633274c212b2c4628a26ba03ceba6afff561eb6f9488689fad4cad06"
+metafile = true
+
+[[files]]
 file = "mods/gristlayermap-1.2.1.pw.toml"
 hash = "b6230f8c719d5f7dce2d45ec467900d47366783e070b96f9d19a59039cd0d918"
 metafile = true
@@ -491,6 +496,11 @@ metafile = true
 [[files]]
 file = "mods/prickle-neoforge-1.21.1-21.1.11.pw.toml"
 hash = "906317bd188cededea3c9b98c983e00e1d47c097bd1b94caf3e3cd7d20a07462"
+metafile = true
+
+[[files]]
+file = "mods/pylons.pw.toml"
+hash = "a503bf930c565cec29590565c5fb07a81d61e818d39a592042d484c37cacc42a"
 metafile = true
 
 [[files]]
