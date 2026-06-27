@@ -1,6 +1,30 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/bluemap/core.conf"
+hash = "06aa7fc56918e61979d1347c961adc66b296f3452a5c500a66e67105c546b6de"
+
+[[files]]
+file = "config/bluemap/plugin.conf"
+hash = "84121af20e755f22e18e04339e2a658e9c240b4c67c3abb24b50ba588925b039"
+
+[[files]]
+file = "config/bluemap/storages/file.conf"
+hash = "ce1f7419cb657755fcb3266817251951701119b95c8e34fb8fa0a1f6be8c7b17"
+
+[[files]]
+file = "config/bluemap/storages/sql.conf"
+hash = "dbf122b4932a67e8b602ebe24d3278616522c24d2e9481f6c31c9949e75ed9f6"
+
+[[files]]
+file = "config/bluemap/webapp.conf"
+hash = "01f06e0eff76f950e4152dedd36687b599777cb24a1ce4699137b1025c6288dc"
+
+[[files]]
+file = "config/bluemap/webserver.conf"
+hash = "420b13227864623ff9e5f200ebba4c1a10f05a4ca40539dbefdfc9e23cdf78f2"
+
+[[files]]
 file = "config/easylogin/config.toml"
 hash = "b69e2ee4d9e5f3418843fc43c33a73e3f219e31982263676d1ebd4fc8178e270"
 
@@ -186,6 +210,11 @@ metafile = true
 [[files]]
 file = "mods/bits_n_bobs-0.0.44.pw.toml"
 hash = "e488d81d7a742bec9387581af0ad9b2e7d4e340925a51b60e13b5c80d5c1a567"
+metafile = true
+
+[[files]]
+file = "mods/bluemap.pw.toml"
+hash = "f33a4720ef4f315b6d1f778039e9f7bdb8f5ef1b58a57d565c30fd1d8adee207"
 metafile = true
 
 [[files]]
