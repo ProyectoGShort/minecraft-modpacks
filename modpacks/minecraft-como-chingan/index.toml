@@ -533,11 +533,6 @@ hash = "a503bf930c565cec29590565c5fb07a81d61e818d39a592042d484c37cacc42a"
 metafile = true
 
 [[files]]
-file = "mods/retro-damage-indicators.pw.toml"
-hash = "ba76693f55482df48a233d1429477b6aee8cb3e191af8a2e8e7d290017ae839c"
-metafile = true
-
-[[files]]
 file = "mods/ritchiesprojectilelib-2.1.2+mc.1.21.1-neoforge.pw.toml"
 hash = "f1cd9780bf4ef938e2e5c5bc84bdfc963f2805a2b6fbcf689cdc3ed255b37951"
 metafile = true
