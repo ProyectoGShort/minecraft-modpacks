@@ -563,6 +563,11 @@ hash = "5a69bd4045ac507125583a3334000f58524aa4c52ce99bed25f0a1d9bcf6ec0a"
 metafile = true
 
 [[files]]
+file = "mods/skinrestorer.pw.toml"
+hash = "5701a4eb9887a6357f944647e1a5e0f09cb895a36b4b299e6450685e026391fc"
+metafile = true
+
+[[files]]
 file = "mods/sliceanddice-forge-4.2.4.pw.toml"
 hash = "ce4e0e7fd64fffcd634337d7bc6e27874cac158580c5aead966ccd16fa6eea6c"
 metafile = true
