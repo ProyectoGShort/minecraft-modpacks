@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/Chunky-1.3.146.pw.toml"
-hash = "2274e08910d949f9962383e2314e8d42490f2e8195782786392614d0f0879629"
+hash = "0e17f9758f6f67ef87aa6f8d5afc47901521a05904cd8470ef65063b48e69d73"
 metafile = true
 
 [[files]]
@@ -569,3 +569,7 @@ metafile = true
 file = "resourcepacks/Realistic-Combat-Soundpack-2.0.pw.toml"
 hash = "a96e1d3f047ad95970bdbeba8e5caba1f3cfcbac6ae8eae3f6edbce7dafd856f"
 metafile = true
+
+[[files]]
+file = "servers.dat"
+hash = "ebb510868b20f7ccc354445bba4b057ed0517951ec4c20e5302448b0a5743be7"
