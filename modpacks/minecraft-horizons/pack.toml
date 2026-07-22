@@ -1,0 +1,13 @@
+name = "Minecraft Horizons"
+author = "Jesús de la Casa"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "a8e2bc36898e17aec8ff7c27718c906e2442f80a95c4d04bc9953ba6557245d5"
+
+[versions]
+forge = "47.4.20"
+minecraft = "1.20.1"

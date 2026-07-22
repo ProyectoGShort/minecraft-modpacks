@@ -1,0 +1,13 @@
+name = "Blood N Particles Mod"
+filename = "Blood N' Particles v1.4.0 - Forge 1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/GMc9eFJe/versions/Sl6gG7jH/Blood%20N%27%20Particles%20v1.4.0%20-%20Forge%201.20.1.jar"
+hash-format = "sha512"
+hash = "a230d1869bc5ef6a3609339516f1a47e1c2c2c24ba645b8ad29c4405fd28ddcf865f2195e487d01098d97543b9e16abbc733bf7ed21c945e14445bfc708723c2"
+
+[update]
+[update.modrinth]
+mod-id = "GMc9eFJe"
+version = "Sl6gG7jH"

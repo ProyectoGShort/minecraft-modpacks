@@ -1,0 +1,13 @@
+name = "Animated Loading Screen"
+filename = "animatedlogo-2.1+1.20.1-forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/cGHt9WgV/versions/kocbuEzo/animatedlogo-2.1%2B1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "f0dad112e2b885d763839e5c72a0989002c2882830939af8bd80787e3752cb3fd6c4b7d1abec3c4c08792ad8eab6166f15f0b9e091e664081ce6a6300dc5bda2"
+
+[update]
+[update.modrinth]
+mod-id = "cGHt9WgV"
+version = "kocbuEzo"

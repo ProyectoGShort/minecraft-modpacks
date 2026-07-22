@@ -1,0 +1,13 @@
+name = "Realistic Combat Soundpack"
+filename = "Realistic Combat Soundpack 2.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ztqVVkhx/versions/6QVCBsIt/Realistic%20Combat%20Soundpack%202.0.zip"
+hash-format = "sha512"
+hash = "d6bd5fc08005297c1e2613d91840767a4eda81992142aad8b4ebd079a5a4658419c7d85ee96e13eecefa74101ca691fcaddc152c757762b6516165b3f643dd27"
+
+[update]
+[update.modrinth]
+mod-id = "ztqVVkhx"
+version = "6QVCBsIt"

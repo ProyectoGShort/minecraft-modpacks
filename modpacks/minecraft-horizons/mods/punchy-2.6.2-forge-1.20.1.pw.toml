@@ -1,0 +1,13 @@
+name = "Punchy!"
+filename = "punchy-2.6.2-forge-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/8aoMKplv/versions/GhwpXrhD/punchy-2.6.2-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "a0d699c6fd62c9fd381cb72ad5594f81f601110e1818324be37fa745fdbaa301014c8eea040d8d24c3987d032531badcf1789304641110b28e419b64d30eeb56"
+
+[update]
+[update.modrinth]
+mod-id = "8aoMKplv"
+version = "GhwpXrhD"

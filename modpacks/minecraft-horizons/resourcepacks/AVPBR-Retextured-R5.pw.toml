@@ -1,0 +1,13 @@
+name = "AVPBR Retextured"
+filename = "AVPBR Retextured R5.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/7junW3B9/versions/HC44ldY7/AVPBR%20Retextured%20R5.zip"
+hash-format = "sha512"
+hash = "5c1985c1c392e7d5c0bb6fff06d05954089043c95f9808b192dcec4724967126ec22a366e40bdef456d94f7fe7d7ed096ac6a95b9e056e08cb7267bb2493a58a"
+
+[update]
+[update.modrinth]
+mod-id = "7junW3B9"
+version = "HC44ldY7"
