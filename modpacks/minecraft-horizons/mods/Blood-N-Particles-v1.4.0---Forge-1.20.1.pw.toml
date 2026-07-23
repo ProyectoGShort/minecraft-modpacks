@@ -1,6 +1,6 @@
 name = "Blood N Particles Mod"
 filename = "Blood N' Particles v1.4.0 - Forge 1.20.1.jar"
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/GMc9eFJe/versions/Sl6gG7jH/Blood%20N%27%20Particles%20v1.4.0%20-%20Forge%201.20.1.jar"
