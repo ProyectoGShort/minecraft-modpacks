@@ -167,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/bc_particle-0.0.6-forge-1.20.1.pw.toml"
-hash = "90180460eb639e5b5e0f015d3c8a7076505de4c99c12138d9a3ffd8325cb9620"
+hash = "8594fb7a8ed34477b39dd5ee484700436fdb1cd0a7c739db747df942f635780c"
 metafile = true
 
 [[files]]
@@ -202,7 +202,7 @@ metafile = true
 
 [[files]]
 file = "mods/coolrain-1.20.1-Forge-1.0.3.pw.toml"
-hash = "ae904db35ff0ad31e6a2a363dd935771493fdcca2f55b74b3f7d3857901c3d0d"
+hash = "38f8ed86c67b3c54d8044835237809587cf3c8f1cf5a7facddf8126b38c0425e"
 metafile = true
 
 [[files]]
