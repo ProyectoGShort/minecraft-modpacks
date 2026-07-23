@@ -1,6 +1,6 @@
 name = "Cool Rain Reforged"
 filename = "coolrain-1.20.1-Forge-1.0.3.jar"
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/IgftU6Mn/versions/Z3Yf3JBe/coolrain-1.20.1-Forge-1.0.3.jar"
