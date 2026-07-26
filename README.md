@@ -48,7 +48,6 @@ $pack = ".\modpacks\my-new-pack"
 New-Item -ItemType Directory -Path $pack -Force
 & .\tools\packwiz.exe --pack-file "$pack\pack.toml" --meta-folder-base $pack init `
   --name "My New Pack" `
-  --author "Your Name" `
   --version "1.0.0" `
   --mc-version "1.21.1" `
   --modloader neoforge `
