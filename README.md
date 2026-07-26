@@ -43,7 +43,6 @@ Use the same `$pack` as in [Usage](#usage). Examples skip repeating the comment 
 `init` must run inside the pack folder (`Push-Location` / `Pop-Location` return you to the repo root):
 
 ```powershell
-$pack = ".\modpacks\my-new-pack"
 New-Item -ItemType Directory -Path $pack -Force
 Push-Location $pack
 & ..\..\tools\packwiz.exe init `
@@ -56,7 +55,7 @@ Push-Location $pack
 Pop-Location
 ```
 
-Swap NeoForge for Forge/Fabric/Quilt with the matching `--modloader` and version flags as needed. Then use `$pack` from the repo root like the commands below.
+Swap NeoForge for Forge/Fabric/Quilt with the matching `--modloader` and version flags as needed.
 
 ### Add a mod (Modrinth)
 
