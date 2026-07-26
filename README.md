@@ -40,23 +40,24 @@ Use the same `$pack` as in [Usage](#usage). Examples skip repeating the comment 
 
 ### Initialise a new modpack
 
-1. Create a folder under `modpacks/` and point `$pack` at it.
-2. Run `init` (interactive prompts, or pass the flags below).
+`init` must run **inside** the pack folder (unlike the other commands). Using `--pack-file` from the repo root can create `pack.toml` but then fail looking for `index.toml`.
 
 ```powershell
 $pack = ".\modpacks\my-new-pack"
 New-Item -ItemType Directory -Path $pack -Force
-& .\tools\packwiz.exe --pack-file "$pack\pack.toml" --meta-folder-base $pack init `
+Push-Location $pack
+& ..\..\tools\packwiz.exe init `
   --name "My New Pack" `
   --version "1.0.0" `
   --mc-version "1.21.1" `
   --modloader neoforge `
   --neoforge-version "21.1.227"
+Pop-Location
 ```
 
 Omit the version/loader flags (or only some of them) to answer those prompts interactively. Use `--forge-version` / `--fabric-version` / `--quilt-version` (and the matching `--modloader`) instead of NeoForge when needed. Prefer `--neoforge-latest`, `--forge-latest`, etc. if you want packwiz to pick the latest loader for that Minecraft version.
 
-This creates `pack.toml` and `index.toml` inside `$pack`. After that, use the same `$pack` for the rest of the commands below.
+This creates `pack.toml` and `index.toml` inside `$pack`. After that, go back to the repo root and use the same `$pack` with `--pack-file` / `--meta-folder-base` for the rest of the commands below.
 
 ### Add a mod (Modrinth)
 
