@@ -1,0 +1,13 @@
+name = "My New Pack"
+author = "Your Name"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "83559ecd9795b68490f3dddcadb25824208021545758c038d0aa84d782aeca19"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.227"
