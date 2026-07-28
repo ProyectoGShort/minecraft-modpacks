@@ -1,0 +1,13 @@
+name = "Horizons2"
+author = "Becado"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "d8678ff237351b45f3e45d6e3fbacc5e367257dd67915dbbd0babfa6e4262fa3"
+
+[versions]
+forge = "47.4.22"
+minecraft = "1.20.1"

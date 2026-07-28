@@ -1,0 +1,13 @@
+name = "Rotten Creatures"
+filename = "rottencreatures-forge-1.20.1-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5Zusp48B/versions/EasQOQcG/rottencreatures-forge-1.20.1-1.1.0.jar"
+hash-format = "sha512"
+hash = "325ba365dce04fcabe01a9f005cb1ca0d9567c627f6123d05d7c8518d3bd2c05f8bcbb9d4e895ce2bc4c6d0a858f7aadf7714051ad216353fa95a9b43f36f239"
+
+[update]
+[update.modrinth]
+mod-id = "5Zusp48B"
+version = "EasQOQcG"
