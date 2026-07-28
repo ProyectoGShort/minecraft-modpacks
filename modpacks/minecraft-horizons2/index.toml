@@ -461,6 +461,11 @@ hash = "5c07edd0c8fe82e85efd6c027476ba54cf98291526803b74614c3436292e4ab6"
 metafile = true
 
 [[files]]
+file = "mods/rhino.pw.toml"
+hash = "5b92406160d9ea8a61ddf111caaecb7f6283678e2c40b08b72dce3eeaf20dc96"
+metafile = true
+
+[[files]]
 file = "mods/rottencreatures.pw.toml"
 hash = "7a9d9b8df9cfc1963d6053a026c701b497a9dadd1e15a4471ee8d8b09d0cfaf7"
 metafile = true
