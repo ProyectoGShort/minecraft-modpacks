@@ -2,6 +2,28 @@
 
 This repo uses [packwiz](https://packwiz.infra.link/) to keep the modpack as versioned TOML files and export a Modrinth `.mrpack`.
 
+## Naming conventions
+
+Pack folders and build filenames share one slug; the display `name` in `pack.toml` is separate (human-readable). Getting the slug wrong breaks CI export paths and server deployments.
+
+| What | Rule | Example |
+|------|------|---------|
+| Pack folder | `modpacks/minecraft-<slug>/` — lowercase, words and numbers separated by **hyphens** (`-`). Never camelCase, glued numbers, or underscores. | `modpacks/minecraft-horizons-2/` |
+| Display `name` in `pack.toml` | Human-readable title with spaces (not the folder slug). Prefer the `Minecraft …` prefix used by existing packs. | `name = "Minecraft Horizons 2"` |
+| `author` in `pack.toml` | Your **nickname**, not a placeholder or real full name unless that is your nickname. | `author = "YourNickname"` |
+| Build artifacts | Same slug as the folder: `builds/<slug>-<version>.mrpack` and `builds/<slug>-latest.mrpack`. | `builds/minecraft-horizons-2-1.0.0.mrpack`, `builds/minecraft-horizons-2-latest.mrpack` |
+
+**Wrong vs right:**
+
+```text
+❌ modpacks/minecraft-horizons2/          ✅ modpacks/minecraft-horizons-2/
+❌ modpacks/minecraft-horizons_2/         ✅ modpacks/minecraft-horizons-2/
+❌ name = "Horizons2"                     ✅ name = "Minecraft Horizons 2"
+❌ builds/Horizons2-1.0.0.mrpack          ✅ builds/minecraft-horizons-2-1.0.0.mrpack
+```
+
+The GitHub Actions export workflow names builds from the **folder basename**, not from `pack.toml` `name`. Do not commit a `.mrpack` whose filename comes from the display name (e.g. `Horizons2-1.0.0.mrpack`); it must match `builds/<slug>-<version>.mrpack` and `builds/<slug>-latest.mrpack`.
+
 ## Usage
 
 Run **PowerShell from the repository root**. The binary is `.\tools\packwiz.exe`.
@@ -40,14 +62,15 @@ Use the same `$pack` as in [Usage](#usage). Examples skip repeating the comment 
 
 ### Initialise a new modpack
 
-`init` must run inside the pack folder (`Push-Location` / `Pop-Location` return you to the repo root):
+Pick a kebab-case folder slug first (see [Naming conventions](#naming-conventions)), then set `$pack` to that path. `init` must run inside the pack folder (`Push-Location` / `Pop-Location` return you to the repo root):
 
 ```powershell
+$pack = ".\modpacks\minecraft-horizons-2"
 New-Item -ItemType Directory -Path $pack -Force
 Push-Location $pack
 & ..\..\tools\packwiz.exe init `
-  --name "My New Pack" `
-  --author "Your Name" `
+  --name "Minecraft Horizons 2" `
+  --author "YourNickname" `
   --version "1.0.0" `
   --mc-version "1.21.1" `
   --modloader neoforge `
