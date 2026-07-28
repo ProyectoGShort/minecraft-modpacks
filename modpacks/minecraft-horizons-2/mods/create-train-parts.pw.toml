@@ -1,0 +1,13 @@
+name = "Create Train Parts"
+filename = "create_train_parts-0.5.2-1.20.1-6.0.8-291.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/h0bu4oDk/versions/Mq74OXyV/create_train_parts-0.5.2-1.20.1-6.0.8-291.jar"
+hash-format = "sha512"
+hash = "84f48e7e8f5db98c2498fde4e41a7c47791b09d6ad4f43a6ed3cc9a3e1faaad67583dd05f2307d5a4b75fc3ceaf74b36dbfc9364a97f73d1bf128b45617d2635"
+
+[update]
+[update.modrinth]
+mod-id = "h0bu4oDk"
+version = "Mq74OXyV"

@@ -1,0 +1,13 @@
+name = "Camera Overhaul"
+filename = "CameraOverhaul-v2.1.1-forge+mc[1.20-1.20.5].jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/m0oRwcZx/versions/VRToGhCT/CameraOverhaul-v2.1.1-forge%2Bmc%5B1.20-1.20.5%5D.jar"
+hash-format = "sha512"
+hash = "4672d5fee0d3c1796f8bb92c152f3fb0a2d2ac18888f9af53bf769bd699cf92313f42c52ed18d91c809af45bb7ce06bf477b66d2332e062db9c7b792e503f4d9"
+
+[update]
+[update.modrinth]
+mod-id = "m0oRwcZx"
+version = "VRToGhCT"

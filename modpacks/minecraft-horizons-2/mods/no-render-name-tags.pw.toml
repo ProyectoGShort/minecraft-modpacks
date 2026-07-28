@@ -1,0 +1,13 @@
+name = "No Render Name Tags"
+filename = "norendernametags-1.20-1.20.1-forge-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/KdXn7uch/versions/VVzG5i7U/norendernametags-1.20-1.20.1-forge-1.0.jar"
+hash-format = "sha512"
+hash = "a5fde2736ddb1eeed2240d40f9ab509878c8ae275e5e1173a32d884a4ebfff42c3ea65feeedab84d7ceb616199210ede30c58ef25f0eaf16f68dbf2557c36239"
+
+[update]
+[update.modrinth]
+mod-id = "KdXn7uch"
+version = "VVzG5i7U"

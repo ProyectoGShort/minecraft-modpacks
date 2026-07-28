@@ -1,0 +1,13 @@
+name = "Falling Leaves"
+filename = "Falling leaves 1_20_1-1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ALTwwcC5/versions/DngwHbeg/Falling%20leaves%201_20_1-1.0.jar"
+hash-format = "sha512"
+hash = "f2934b8e8680e2b9d2f93a39d61293c0d50511405aef02c37e9b8c612b1df798335db046f28e52e9024cda5c31e11b906f911edd6405612260b5a3a11c3662c8"
+
+[update]
+[update.modrinth]
+mod-id = "ALTwwcC5"
+version = "DngwHbeg"
