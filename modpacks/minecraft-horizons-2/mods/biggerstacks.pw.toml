@@ -1,0 +1,13 @@
+name = "Bigger Stacks"
+filename = "biggerstacks-1.20.1-2026.06.17-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hcK0pdrI/versions/uUorHnBg/biggerstacks-1.20.1-2026.06.17-all.jar"
+hash-format = "sha512"
+hash = "081becd6e467834915a35c6dbf4dc44d89f782fea928ba2d840f3dd1c2bc3c8290aec015db8460da3cbc4e323119ece5f5ed3a8f88d6ea9ebab8143db0bc5877"
+
+[update]
+[update.modrinth]
+mod-id = "hcK0pdrI"
+version = "uUorHnBg"

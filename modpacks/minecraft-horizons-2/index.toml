@@ -66,6 +66,11 @@ hash = "52b4f29eb4a4392ef085617292842dc9fc84d86c318da5ce470b24eab77f6bdc"
 metafile = true
 
 [[files]]
+file = "mods/biggerstacks.pw.toml"
+hash = "5e3047dc3cce63c913f9c6f0b8517cfb6828a4f036e72d8c1605c6c8633aa5a8"
+metafile = true
+
+[[files]]
 file = "mods/blood-n-particles-mod.pw.toml"
 hash = "cefea68bf7ff9e615fe6ab443d7952a1545f29f95efe22a2fdb894e51e6a56b5"
 metafile = true
