@@ -6,6 +6,11 @@ hash = "aae6e3463d50f1a338ae73c6717d72f56f606dee44ddf457e37f8e056baabe3a"
 metafile = true
 
 [[files]]
+file = "mods/ImmediatelyFast-Forge-1.5.5+1.20.4.pw.toml"
+hash = "1a9564ded8e9cd1f843f9de7fc87ffbf73033aab51494205458b0e58cc0ab194"
+metafile = true
+
+[[files]]
 file = "mods/advancement-plaques.pw.toml"
 hash = "7f243cdb7d52214593d8155a12de24d4992a781a94597eb09bf3ffb3396e5eb5"
 metafile = true
@@ -28,6 +33,16 @@ metafile = true
 [[files]]
 file = "mods/amendments.pw.toml"
 hash = "8b9bd5d12a7068c334ab4ad626a9a86e70302cda90885daa531bfa842e8b29c5"
+metafile = true
+
+[[files]]
+file = "mods/apotheosis.pw.toml"
+hash = "9879628ffc31444830369bca2acb00ce0bde37a092ac2ee3f53447b28a6f6f04"
+metafile = true
+
+[[files]]
+file = "mods/apothic-attributes.pw.toml"
+hash = "1dc9e1a184ade4918dad17ef20de026053c841bd5a50f122fb783bb3f9185b89"
 metafile = true
 
 [[files]]
@@ -76,6 +91,11 @@ hash = "fa52f73b4a98378092e9194dc325e98f9339c2855d1ada185e8c3ba004ea39cb"
 metafile = true
 
 [[files]]
+file = "mods/chatanimation.pw.toml"
+hash = "88db22d92c56d906d68ef04ebe6a10b32e939fc8a51fe54d3f968f07767109d4"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 hash = "0e17f9758f6f67ef87aa6f8d5afc47901521a05904cd8470ef65063b48e69d73"
 metafile = true
@@ -88,6 +108,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "e3dd03e7fec88831974857e2cdded54dd5c5bdcaa3f6d6248c2800e82db4dd41"
+metafile = true
+
+[[files]]
+file = "mods/cool-rain-reforged.pw.toml"
+hash = "38f8ed86c67b3c54d8044835237809587cf3c8f1cf5a7facddf8126b38c0425e"
 metafile = true
 
 [[files]]
@@ -201,8 +226,23 @@ hash = "5ec0c37f3f4ad07a40c10376668bca80334ddb7ad2bab06eb4de8f7aac339c8e"
 metafile = true
 
 [[files]]
+file = "mods/emf-compat-better-combat.pw.toml"
+hash = "4474102617f4ae77206692fa284b526f9e6b04b9a5b3ac11ac9b77e59a26a7ad"
+metafile = true
+
+[[files]]
+file = "mods/emf-compat-core.pw.toml"
+hash = "6759bc8b99b839bbc97b5544fbd9e2827ce78745fa04cb05b947540bc608156d"
+metafile = true
+
+[[files]]
 file = "mods/enderman-overhaul.pw.toml"
 hash = "3f63f54bf638954d1da79cacc7ab2d58e1886c98bdb2b267035abfa0ce8a5a72"
+metafile = true
+
+[[files]]
+file = "mods/enhancedvisuals.pw.toml"
+hash = "2b49222d3b86ba0efb845dcf15d0321ff5a2c1396d4a844fe59bc23c352e4453"
 metafile = true
 
 [[files]]
@@ -231,6 +271,11 @@ hash = "d478b8c5149f9c37bc0072d0608e2fbc6ff38cd3d15420f99c8a7ed2a55c8f0e"
 metafile = true
 
 [[files]]
+file = "mods/fdlib.pw.toml"
+hash = "34320e557d3321623f5b68cf86a370d04b71adb7d01648ea259c37c653041f1c"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "902bac905b93271f02bd0951a22bac06a3da24f5c237fcaeb469e14a7679e508"
 metafile = true
@@ -243,6 +288,11 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "7ffae05c3b8101588b231db8116c34b36a77a0c6e6d7e6af867ae1c5b47e4d10"
+metafile = true
+
+[[files]]
+file = "mods/gml.pw.toml"
+hash = "3230a700b8083d1999523c5e77f7c9b14ed106059a8683ca780a06ab801231fb"
 metafile = true
 
 [[files]]
@@ -261,11 +311,6 @@ hash = "c21d061d9c22b9bcdad2ac9f9823355fcab00f2ea05469b76d5ddf6ccf518479"
 metafile = true
 
 [[files]]
-file = "mods/immediatelyfast.pw.toml"
-hash = "835bd8b05a05ce6c0981ddc37c49e4c476aa0414cc2a5321fd9f8994193b6feb"
-metafile = true
-
-[[files]]
 file = "mods/immersive-damage-indicators.pw.toml"
 hash = "d5a6ba6bb1d790e2d36657d54f0924ba1011738d39c320d882065ee06977b824"
 metafile = true
@@ -273,6 +318,16 @@ metafile = true
 [[files]]
 file = "mods/immersive-messages-api.pw.toml"
 hash = "0fc131b61967727753c9133231eb5ef70557af3f3f2e91ceb8498b4609177f32"
+metafile = true
+
+[[files]]
+file = "mods/immersive-portals-neoforge.pw.toml"
+hash = "8c56189a235a058e9dfd8a1f6ffa449b1cfcdb957f77f07750ee203057025b9a"
+metafile = true
+
+[[files]]
+file = "mods/immersive-structures.pw.toml"
+hash = "9276cb26c8a8313bb5d7b9b94c61306b1ab25f257a5e49032585b9d5ecd48f09"
 metafile = true
 
 [[files]]
@@ -421,6 +476,16 @@ hash = "44132884ab27baad8b38af1fde8d5a43705897315abcaf326a80778f344619d8"
 metafile = true
 
 [[files]]
+file = "mods/patchouli.pw.toml"
+hash = "2242b76f7c4ee6d7f396a2d1380bee615d78408d00bff5cca38e4df777b18dc5"
+metafile = true
+
+[[files]]
+file = "mods/placebo.pw.toml"
+hash = "969078b157cd783f7c38ac33407abc4f532c244c973d52810d559f02be06db90"
+metafile = true
+
+[[files]]
 file = "mods/platform.pw.toml"
 hash = "c1c2388e4321bd322cb3dec7a5b33fa11747b4c6ce50a96f5921c3248c028639"
 metafile = true
@@ -446,8 +511,8 @@ hash = "ad5079c6eb08a8ed35f3693a20fde052eaf6f40ee761ce90e47d9bd88349a983"
 metafile = true
 
 [[files]]
-file = "mods/repo-heads.pw.toml"
-hash = "b74d80888e41899dc2f5f372939d2436998bafe18b0969a9cd7e8c2ea2967a50"
+file = "mods/realm-rpg-fallen-adventurers.pw.toml"
+hash = "d282a7b0297f8987976b6f2495c35c9d11c22ebf6bd6cf1cba748e4cbd218744"
 metafile = true
 
 [[files]]
@@ -478,6 +543,11 @@ metafile = true
 [[files]]
 file = "mods/shatterbyte-lib.pw.toml"
 hash = "fee498cb6d037ca6130755d9e3d42d16f08e208d9a510525dbe55797ca98f30a"
+metafile = true
+
+[[files]]
+file = "mods/shoulder-surfing-reloaded.pw.toml"
+hash = "bd1763bf1d53afd319468dbb4a420f312f76573bc84361edc9da7f79b6bdf381"
 metafile = true
 
 [[files]]
@@ -531,6 +601,11 @@ hash = "ee2c3631dbbb9e01ee2455c10111c661a118fb6ed91fbc0aa11fbdc2ae411ed0"
 metafile = true
 
 [[files]]
+file = "mods/timeless-and-classics-zero.pw.toml"
+hash = "c1e1644e1af423c59740258a3a23212af5dce7a4199bf1f4f260191cf985467b"
+metafile = true
+
+[[files]]
 file = "mods/towns-and-towers.pw.toml"
 hash = "7b7108d879e1e1c141b24d0d8fa268a6bbcd5c227875d156fcc62c3beec55f63"
 metafile = true
@@ -578,6 +653,11 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "f3b3d035b89519faccc4ddd8b0b4407ce96c0eb49068fe50a445d43a3baa8bea"
+metafile = true
+
+[[files]]
+file = "mods/yungs-api.pw.toml"
+hash = "152c6732da180e958fb29f492bae2e468d4dfd423ce4d3d0d31ef31c2eec6c61"
 metafile = true
 
 [[files]]

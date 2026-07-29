@@ -1,0 +1,13 @@
+name = "Immersive Portals for (Neo)Forge"
+filename = "immersive-portals-3.0.7-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zf4Szzx2/versions/Q6Z7eOLL/immersive-portals-3.0.7-all.jar"
+hash-format = "sha512"
+hash = "5dbbc097b5ee9a4fba5ed45e2ec5f4d5db18496e155d721840cfe286584df8191cefd56894156e9d327d40309a219665bf2fc812a60f2b83aa4a95fc40194003"
+
+[update]
+[update.modrinth]
+mod-id = "zf4Szzx2"
+version = "Q6Z7eOLL"
